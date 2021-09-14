@@ -87,7 +87,7 @@ class Log:
 def check_logvars(var, varPlace, filePath): # Encontrar variables
     find = "LogFile: "
     if varPlace == 0:
-        find +="init"
+        find +="init "
     else:
         find+="close"
 
